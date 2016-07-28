@@ -47,6 +47,11 @@
                 <tr class="keywords no-up-border" id="keyword_{{post.id}}">
                     <td style="border-top-style: none">关键词:</td>
                 </tr>
+                <tr>    
+                    <td class="col-lg-4" style="border-top-style: none">点赞数：{{post.PLikeNum}}</td>
+                    <td class="col-lg-4" style="border-top-style: none">回复数：{{post.PReplyNum}}</td>
+                    <td class="col-lg-4" style="border-top-style: none">点击量：{{post.PVisitNum}}</td>
+                </tr>
                 {% endfor %}
             </tbody>
         </table>
